@@ -58,7 +58,7 @@ container.appendChild(newParagraph);
 // const random=document.querySelectorAll('.container .random');
 // console.log(random);
 
-// //11:30 of tutorial
+
 
 
 
