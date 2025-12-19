@@ -1,45 +1,45 @@
-// class Animal{
-//     speak(){
-//         console.log("Animal makes a sound");
+class Animal{
+    speak(){
+        console.log("Animal makes a sound");
 
-//     }
-// }
+    }
+}
 
-// class Dog extends Animal{
-//     speak(){
-//         console.log("Dog Barks");
-//     }
-// }
+class Dog extends Animal{
+    speak(){
+        console.log("Dog Barks");
+    }
+}
 
-// class Cat extends Animal{
+class Cat extends Animal{
 
-//     speak(){
-//         console.log("cat Meows");
-//     }
+    speak(){
+        console.log("cat Meows");
+    }
     
-// }
+}
 
-// const dog=new Dog();
-// dog.speak();
+const dog=new Dog();
+dog.speak();
 
-// const cat =new Cat();
-// cat.speak();
-// //Output: Dog Barks , Cat Meows
+const cat =new Cat();
+cat.speak();
+//Output: Dog Barks , Cat Meows
 
-// class Calculator{
-//     add(a,b){
-//         if(b===undefined){
-//             return a+a;
+class Calculator{
+    add(a,b){
+        if(b===undefined){
+            return a+a;
 
-//         }
+        }
 
-//         return a+b;
-//     }
-// }
+        return a+b;
+    }
+}
 
-// const calc =new Calculator();
-// console.log(calc.add(4));
-// console.log(calc.add(4,6))
+const calc =new Calculator();
+console.log(calc.add(4));
+console.log(calc.add(4,6))
 
 
 class A{
