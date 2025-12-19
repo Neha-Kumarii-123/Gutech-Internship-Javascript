@@ -10,24 +10,24 @@ const user ={
 
 }
 
-// user.welcomeMessage();
-// user.username="Ashiii";
-// user.welcomeMessage();
+user.welcomeMessage();
+user.username="Ashiii";
+user.welcomeMessage();
 
-// console.log(this);
+console.log(this);
 
-// function Coffee(){
-//     let username="Neha Soni"
-//     console.log(this.username);
-// }
-// Coffee();
+function Coffee(){
+    let username="Neha Soni"
+    console.log(this.username);
+}
+Coffee();
 
 
 
-// const coffee=function(){
-//      let username="Neha Soni"
-//   console.log(this.username);
-// }
+const coffee=function(){
+     let username="Neha Soni"
+  console.log(this.username);
+}
 
 
 // const coffee=() =>{
