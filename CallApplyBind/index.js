@@ -17,7 +17,7 @@ let name2 ={
 printFullName.call(name2, "Khipro", "Sindh");
 
 //Apply Method
-printFullName.call(name2, ["Khipro", "Sindh"]);
+printFullName.apply(name2, ["Khipro", "Sindh"]);
 
 //Bind Method 
 let printMyName=printFullName.bind(name2, "Khipro", "Sindh");
