@@ -73,7 +73,7 @@ setTimeout(() =>{
 }, 2000);
 }
 
-//Call
+//Callback hell
 getData(1, () =>{
     console.log("Gettind data2 ....");
     getData(2, () =>{
