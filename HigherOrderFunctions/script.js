@@ -6,12 +6,12 @@ cb(result);
 return () =>console.log(result);
 }
 
-// function showResult(result){
-//     console.log(result);
-// }
+function showResult(result){
+    console.log(result);
+}
 
-// add(2,4, showResult);
-// add(2,4, val =>console.log(val));
+add(2,4, showResult);
+add(2,4, val =>console.log(val));
 let resultFunction=add(2,4, () =>{});
 
 // add(400, 10,(res) =>console.log(res));
